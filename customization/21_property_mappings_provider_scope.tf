@@ -10,17 +10,22 @@ resource "authentik_property_mapping_provider_scope" "nextcloud_profile" {
     # Configure which group names should be exposed to Nextcloud.
     # Edit this list to include only groups you want available in Nextcloud.
     allowed = [
-      "Musikverein",
-      "Vorstandschaft",
-      "Vorstand",
-      "Vorsitzende",
-      "Jugendvorstand",
-      "Jugendvertretung",
-      "Jugendbeirat",
+      "Administration",
       "Außerordentliche Jugendvorstandsmitglieder",
-      "Öffentlichkeitsarbeit",
+      "Beirat",
       "Dirigat",
+      "Ehrenvorsitzende",
+      "Jugendbeirat",
+      "Jugendvertretung",
+      "Jugendvorstand",
+      "Musikalische Abteilung",
+      "Musikverein",
       "Notenverwaltung",
+      "Orchestersprechende",
+      "Public Relations",
+      "Vorsitzende",
+      "Vorstand",
+      "Vorstandschaft",
     ]
 
     # Filter groups to only the allowed set
