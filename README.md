@@ -230,7 +230,7 @@ flowchart LR
 |------------------|------|-------|-------|--------|
 | Vorstand         | 👀   | ❌    | ❌    | 🗑️     |
 | Jugendvertretung | 👀   | ❌    | ❌    | 🗑️     |
-| Administration   | 👀   | ❌    | ❌    | 🗑️     |
+| Administration   | 👀   | ❌    | 🔗    | 🗑️     |
 
 ### Veranstaltungen
 
