@@ -205,7 +205,7 @@ flowchart LR
 | Group          | Read | Write | Share | Delete |
 |----------------|------|-------|-------|--------|
 | Jugendvorstand | 👀   | ✏️    | 🔗    | 🗑️     |
-| Vorstandschaft | 👀   | ✏️    | 🔗    | 🗑️     |
+| Vorstand       | 👀   | ✏️    | 🔗    | 🗑️     |
 
 ### Medien
 
