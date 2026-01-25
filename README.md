@@ -221,6 +221,8 @@ flowchart LR
 |------------------------|------|-------|-------|--------|
 | Notenverwaltung        | 👀   | ✏️    | 🔗    | 🗑️     |
 | Musikalische Abteilung | 👀   | ✏️    | 🔗    | 🗑️     |
+| Vorstandschaft         | 👀   | ✏️    | 🔗    | 🗑️     |
+| Jugendvorstand         | 👀   | ✏️    | 🔗    | 🗑️     |
 
 ### Upload
 
