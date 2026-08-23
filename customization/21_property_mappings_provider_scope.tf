@@ -19,6 +19,7 @@ resource "authentik_property_mapping_provider_scope" "nextcloud_profile" {
       "Jugendvertretung",
       "Jugendvorstand",
       "Musikalische Abteilung",
+      "Schlagwerk",
       "Musikverein",
       "Notenverwaltung",
       "Orchestersprechende",

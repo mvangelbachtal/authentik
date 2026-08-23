@@ -35,6 +35,7 @@ flowchart LR
     Dirigat["👥 Dirigat"]
     Orchestersprechende["👥 Orchestersprechende"]
     MusikalischeAbteilung["👥 Musikalische Abteilung"]
+    Schlagwerk["👥 Schlagwerk"]
     Administration["👥 Administration"]
 
     Vorstand["👥 Vorstand"]
@@ -133,6 +134,7 @@ flowchart LR
     Musikverein --> PublicRelations
     Musikverein --> Notenverwaltung
     Musikverein --> MusikalischeAbteilung
+    Musikverein --> Schlagwerk
     Musikverein --> Administration
 
     Vorstandschaft --> Vorstand
@@ -188,6 +190,7 @@ flowchart LR
     Veranstaltungen["📁 Veranstaltungen"]
     VorstandschaftFolder["📁 Vorstandschaft"]
     MusikalischeAbteilung["📁 Musikalische Abteilung"]
+    Schlagwerk["📁 Schlagwerk"]
 
     NC --> Jugendarbeit
     NC --> Medien
@@ -196,6 +199,7 @@ flowchart LR
     NC --> Veranstaltungen
     NC --> VorstandschaftFolder
     NC --> MusikalischeAbteilung
+    NC --> Schlagwerk
 ```
 
 </details>
@@ -224,7 +228,7 @@ flowchart LR
 | Vorstandschaft         | 👀   | ✏️    | 🔗    | 🗑️     |
 | Jugendvorstand         | 👀   | ✏️    | 🔗    | 🗑️     |
 
-### Upload
+### Upload  #TODO: remove
 
 | Group            | Read | Write | Share | Delete |
 |------------------|------|-------|-------|--------|
@@ -249,6 +253,13 @@ flowchart LR
 | Group                  | Read | Write | Share | Delete |
 |------------------------|------|-------|-------|--------|
 | Musikalische Abteilung | 👀   | ✏️    | 🔗    | 🗑️     |
+
+### Register
+
+| Group                  | Subfolder  | Read | Write | Share | Delete |
+|------------------------|------------|------|-------|-------|--------|
+| Musikalische Abteilung | –          | 👀   | ✏️    | 🔗    | 🗑️     |
+| Schlagwerk             | Schlagwerk | 👀   | ✏️    | 🔗    | 🗑️     |
 
 
 ## Usage / Developer

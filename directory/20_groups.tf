@@ -7,6 +7,9 @@ locals {
   group_key_to_id = {
     admins = data.authentik_group.admins.id
     NextcloudAdmins = authentik_group.NextcloudAdmins.id
+    GrafanaAdmins = authentik_group.GrafanaAdmins.id
+    GrafanaEditors = authentik_group.GrafanaEditors.id
+    GrafanaViewers = authentik_group.GrafanaViewers.id
     Musikverein = authentik_group.Musikverein.id
     Vorstandschaft = authentik_group.Vorstandschaft.id
     Vorstand = authentik_group.Vorstand.id
@@ -22,6 +25,7 @@ locals {
     Dirigat = authentik_group.Dirigat.id
     Orchestersprechende = authentik_group.Orchestersprechende.id
     Notenverwaltung = authentik_group.Notenverwaltung.id
+    Schlagwerk = authentik_group.Schlagwerk.id
     Administration = authentik_group.Administration.id
   }
 

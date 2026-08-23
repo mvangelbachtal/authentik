@@ -13,6 +13,7 @@ resource "authentik_provider_oauth2" "nextcloud" {
   allowed_redirect_uris = [
     {
       matching_mode = "strict",
+      redirect_uri_type = "authorization",
       url = "https://cloud.mv-angelbachtal.de/apps/user_oidc/code",
     }
   ]
@@ -34,5 +35,5 @@ resource "authentik_application" "nextcloud" {
   protocol_provider = authentik_provider_oauth2.nextcloud.id
   meta_launch_url = "https://cloud.mv-angelbachtal.de"
   open_in_new_tab = true
-  meta_icon = "/media/public/nextcloud-logo-icon-blue.svg"
+  meta_icon = "nextcloud-logo-icon-blue.svg"
 }
